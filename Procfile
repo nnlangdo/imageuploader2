@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 imguploader.wsgi:application
+web: waitress-serve --port=$PORT imguploader.wsgi:application
